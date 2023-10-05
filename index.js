@@ -1,4 +1,5 @@
 const express = require('express');
+require('@instana/collector')();
 const app = express();
 const PORT = 3000;
 
